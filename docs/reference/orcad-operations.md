@@ -4,6 +4,10 @@
 whatever supervises it: what it binds, what it owns on disk, who restarts what, and what its
 readiness payload actually proves.
 
+For why this Electron-free runtime is the right base for an offline Linux deployment
+driven by a terminal UI instead of the desktop app, and what is still missing to get
+there, see [Offline Linux + TUI support](./offline-linux-tui-support.md).
+
 ## Two long-lived processes, not one
 
 A deployment is **orcad** plus **the terminal daemon**.
