@@ -76,7 +76,7 @@ surface:
 
 The RPC surface itself is large and generated:
 `src/shared/rpc-contract/rpc-params-catalog.generated.ts` currently enumerates
-roughly 400 typed methods (`config/scripts/generate-rpc-params-catalog.mjs`).
+more than 600 typed methods (`config/scripts/generate-rpc-params-catalog.mjs`).
 Building a client against this protocol is proven, low-risk work — three
 clients already do it — but matching full desktop feature parity in a fourth
 (TUI) client is not realistic for a first version.
@@ -160,7 +160,7 @@ Phased, smallest-first, each phase independently shippable:
    [`remote-wire-compatibility.md`](./remote-wire-compatibility.md) requires
    for any new stream consumer.
 3. **Expand TUI coverage by RPC-catalog priority** (git status, orchestration
-   launch/stop, session search) rather than chasing the full ~400-method
+   launch/stop, session search) rather than chasing the full 600-plus-method
    desktop surface. Full parity with the Electron app is an explicit
    non-goal, matching how the existing web/mobile clients already diverge
    from desktop parity.
